@@ -6,12 +6,3 @@ import StarRatingComponent from 'react-star-rating';
           
         />
 
-
-        const Filter = () => {
-            const[rating,setRating]=useState(1);
-           const  onStarClick=(nextValue,prevValue,name)=>{
-            setRating(nextValue);}
-
-            const[rating,setRating]=useState(1);
-   const  onStarClick=(nextValue,prevValue,name)=>{
-    setRating(nextValue);}
